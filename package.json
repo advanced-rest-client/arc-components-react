@@ -1,0 +1,35 @@
+{
+  "name": "arc-components-react",
+  "version": "0.1.0",
+  "license": "Apache-2.0 OR CC-BY-4.0",
+  "description": "React example of the web components",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "polymer-cli": "^1.2.0"
+  },
+  "private": false,
+  "main": [
+    "arc-components-react.html"
+  ],
+  "author": "The Advanced REST client authors <arc@mulesoft.com>",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deps": "bower i --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/advanced-rest-client/arc-components-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/advanced-rest-client/arc-components-react/issues",
+    "email": "arc@mulesoft.com"
+  }
+}

@@ -1,0 +1,35 @@
+.App {
+
+}
+
+.App-header {
+  padding: 12px;
+  background-color: #d6d6d6;
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.AppSide {
+  width: 320px;
+}
+
+.Content {
+  flex: 1;
+}
+
+.raml-url {
+  display: flex;
+  flex-direction: row;
+}
+
+.raml-url input {
+  flex: 1;
+  padding: 12px;
+}
+
+.raml-url button {
+  cursor: pointer;
+}
